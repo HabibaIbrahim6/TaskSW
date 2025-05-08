@@ -134,10 +134,10 @@ bool processTestCase(istream& input, bool fromFile) {
     cout << "Second polynomial: ";
     p2.display_Polynomial();
 
-    Poly sumResult;
-    sumTwoPoly(p1, p2, sumResult);
-    cout << "Sum of polynomials: ";
-    sumResult.display_Polynomial();
+    // Poly sumResult;
+    // sumTwoPoly(p1, p2, sumResult);
+    // cout << "Sum of polynomials: ";
+    // sumResult.display_Polynomial();
 
     Poly diffResult;
     differenceTwoPoly(p1, p2, diffResult);
